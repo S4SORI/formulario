@@ -1,0 +1,119 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( 45deg,#A3C7D6,#9F73AB, #624F82, #3F3B6C, #000);
+    background-size: 400% 100%;
+    animation: main1 5s infinite  alternate ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.fild{
+    border: 5px solid dodgerblue;
+    background: linear-gradient( 45deg,#A3C7D6,#9F73AB, #624F82, #3F3B6C, #000);
+    background-size: 400% 100%;
+    animation: main1 5s infinite  alternate ;
+}
+legend{
+    color: white;
+    font-weight: bold;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+.inputserv{
+    color: white;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.labeluser{
+    pointer-events: none;
+}
+
+input::placeholder{
+    color: white;
+}
+.pp{
+    font-size: 20px;
+    color: white;
+}
+.div22 .pp{
+    margin-bottom: 7px;
+
+}
+input{
+    margin: 8px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.div12{
+    display: flex;
+    align-items: center;
+}
+.label1{
+    color: white;
+}
+.data1{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+}
+.data{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#data{
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 17px;
+}
+.bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.botton{
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient( 45deg,#A3C7D6,#9F73AB, #624F82, #3F3B6C, #000);
+    background-size: 400% 100%;
+    animation: main1 5s infinite  alternate ;
+    
+}
+.botton:hover{
+    cursor: pointer;
+    transform: rotate(800grad);
+    transition: 2s;
+}
